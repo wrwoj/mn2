@@ -1,0 +1,36 @@
+﻿  MN2proj.cpp
+C:\Users\wrwoj\source\repos\MN2proj\MN2proj\matplotlibcpp.h(1817,57): warning C4244: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\wrwoj\source\repos\MN2proj\MN2proj\matplotlibcpp.h(2884,16): message : see reference to function template instantiation 'bool matplotlibcpp::plot<double>(const std::vector<double,std::allocator<double>> &,const std::string &)' being compiled
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyObject_GetAttrString referenced in function "private: __cdecl matplotlibcpp::detail::_interpreter::_interpreter(void)" (??0_interpreter@detail@matplotlibcpp@@AEAA@XZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp__Py_NegativeRefcount referenced in function _Py_DECREF
+MN2proj.obj : error LNK2019: unresolved external symbol __imp__Py_Dealloc referenced in function _Py_DECREF
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyUnicode_FromString referenced in function "bool __cdecl matplotlibcpp::plot<double,double>(class std::vector<double,class std::allocator<double> > const &,class std::vector<double,class std::allocator<double> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??$plot@NN@matplotlibcpp@@YA_NAEBV?$vector@NV?$allocator@N@std@@@std@@0AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyTuple_New referenced in function "bool __cdecl matplotlibcpp::plot<double,double>(class std::vector<double,class std::allocator<double> > const &,class std::vector<double,class std::allocator<double> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??$plot@NN@matplotlibcpp@@YA_NAEBV?$vector@NV?$allocator@N@std@@@std@@0AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyTuple_SetItem referenced in function "bool __cdecl matplotlibcpp::plot<double,double>(class std::vector<double,class std::allocator<double> > const &,class std::vector<double,class std::allocator<double> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??$plot@NN@matplotlibcpp@@YA_NAEBV?$vector@NV?$allocator@N@std@@@std@@0AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyDict_New referenced in function "void __cdecl matplotlibcpp::show(bool)" (?show@matplotlibcpp@@YAX_N@Z)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyDict_SetItemString referenced in function "void __cdecl matplotlibcpp::show(bool)" (?show@matplotlibcpp@@YAX_N@Z)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyCapsule_GetPointer referenced in function _import_array
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyErr_SetString referenced in function "private: void * __cdecl matplotlibcpp::detail::_interpreter::import_numpy(void)" (?import_numpy@_interpreter@detail@matplotlibcpp@@AEAAPEAXXZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyErr_Format referenced in function _import_array
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyErr_Print referenced in function "private: __cdecl matplotlibcpp::detail::_interpreter::_interpreter(void)" (??0_interpreter@detail@matplotlibcpp@@AEAA@XZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_Py_Initialize referenced in function "private: __cdecl matplotlibcpp::detail::_interpreter::_interpreter(void)" (??0_interpreter@detail@matplotlibcpp@@AEAA@XZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_Py_Finalize referenced in function "private: __cdecl matplotlibcpp::detail::_interpreter::~_interpreter(void)" (??1_interpreter@detail@matplotlibcpp@@AEAA@XZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_Py_SetProgramName referenced in function "private: __cdecl matplotlibcpp::detail::_interpreter::_interpreter(void)" (??0_interpreter@detail@matplotlibcpp@@AEAA@XZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PySys_SetArgv referenced in function "private: __cdecl matplotlibcpp::detail::_interpreter::_interpreter(void)" (??0_interpreter@detail@matplotlibcpp@@AEAA@XZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyImport_ImportModule referenced in function _import_array
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyImport_Import referenced in function "private: __cdecl matplotlibcpp::detail::_interpreter::_interpreter(void)" (??0_interpreter@detail@matplotlibcpp@@AEAA@XZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyObject_Call referenced in function "void __cdecl matplotlibcpp::show(bool)" (?show@matplotlibcpp@@YAX_N@Z)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyObject_CallObject referenced in function "bool __cdecl matplotlibcpp::plot<double,double>(class std::vector<double,class std::allocator<double> > const &,class std::vector<double,class std::allocator<double> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??$plot@NN@matplotlibcpp@@YA_NAEBV?$vector@NV?$allocator@N@std@@@std@@0AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyObject_CallMethod referenced in function "private: __cdecl matplotlibcpp::detail::_interpreter::_interpreter(void)" (??0_interpreter@detail@matplotlibcpp@@AEAA@XZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp__Py_RefTotal referenced in function _Py_DECREF
+MN2proj.obj : error LNK2019: unresolved external symbol __imp__Py_FalseStruct referenced in function "void __cdecl matplotlibcpp::show(bool)" (?show@matplotlibcpp@@YAX_N@Z)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyFunction_Type referenced in function "public: struct _object * __cdecl matplotlibcpp::detail::_interpreter::safe_import(struct _object *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?safe_import@_interpreter@detail@matplotlibcpp@@QEAAPEAU_object@@PEAU4@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyCapsule_Type referenced in function _import_array
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyExc_ImportError referenced in function "private: void * __cdecl matplotlibcpp::detail::_interpreter::import_numpy(void)" (?import_numpy@_interpreter@detail@matplotlibcpp@@AEAAPEAXXZ)
+MN2proj.obj : error LNK2019: unresolved external symbol __imp_PyExc_RuntimeError referenced in function _import_array
+C:\Users\wrwoj\AppData\Local\Programs\Python\Python39-32\libs\python39_d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\wrwoj\source\repos\MN2proj\x64\Debug\MN2proj.exe : fatal error LNK1120: 27 unresolved externals
